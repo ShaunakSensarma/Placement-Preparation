@@ -1,4 +1,4 @@
-class subsequence
+class longestpalindromicsubsequence
 {
     public static void main(String args[])
     {
