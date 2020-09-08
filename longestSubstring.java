@@ -24,6 +24,8 @@ class longestSubstring
                 {
                     al.add(k);
                     len++;
+                    if(len>max)
+                        max=len;
                 }
                 else
                 {
