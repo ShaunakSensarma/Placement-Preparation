@@ -30,8 +30,8 @@ class traversals
     {
         if(node!=null)
         {            
-            preorder(node.left);
-            preorder(node.right);
+            postorder(node.left);
+            postorder(node.right);
             System.out.print(node.data+",");
         }
     }
